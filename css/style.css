@@ -3,12 +3,6 @@
     --borda-redonda: 4px;
 }
 
-*{
-    font-family: 'Source Code Pro', monospace;
-}
-
-
-       
 
 body {
     height: 100vh;
@@ -34,9 +28,15 @@ main {
     height: 350px;
     
 }
+.center{
+    display: flex;
+    justify-content: center;
+}
 
-
-
+#centro{
+    flex-direction: column;
+    padding-left: 220px;
+}
 
 #cesar, #base {
     margin-top: 55px;
@@ -59,7 +59,7 @@ main {
 #resultado, #resultadoBase64 {
     height: 20px;
     padding: 0 10px 10px;
-    color: #5af78d;
+    color: #ecf3ef;
     border-top-left-radius: var(--borda-redonda);
     border-top-right-radius: var(--borda-redonda);   
     
@@ -98,8 +98,8 @@ input[type='range']::-webkit-slider-thumb {
 #codOuDecod, #codOuDecodBase {
     background: #0f0f10;
     height: 30px;
-    color: #5af78d;
-    font-family: 'Source Code Pro', monospace;
+    color: #e8efea;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 
